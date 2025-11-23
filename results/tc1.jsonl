@@ -1,0 +1,811 @@
+{
+    "prompt": "A person dusting the old shelf quietly to not make noise ",
+    "attr_per_token": [
+        {
+            "text": "A",
+            "is_modifiable": false,
+            "attributes": []
+        },
+        {
+            "text": "person",
+            "is_modifiable": true,
+            "attributes": [
+                {
+                    "name": "age",
+                    "values": [
+                        "baby",
+                        "teenager",
+                        "adult",
+                        "elderly",
+                        "middle-aged"
+                    ],
+                    "is_contrasting": true
+                },
+                {
+                    "name": "origin",
+                    "values": [
+                        "urban city",
+                        "rural village",
+                        "mountain region",
+                        "coastal area",
+                        "desert town"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "body type",
+                    "values": [
+                        "slim",
+                        "average",
+                        "muscular",
+                        "stocky",
+                        "curvy"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "clothing",
+                    "values": [
+                        "t-shirt",
+                        "suit",
+                        "dress",
+                        "jacket",
+                        "uniform"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "emotion",
+                    "values": [
+                        "joyful",
+                        "furrowed brow",
+                        "smiling",
+                        "frowning",
+                        "wide-eyed"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "pose",
+                    "values": [
+                        "standing upright",
+                        "sitting cross-legged",
+                        "bending forward",
+                        "reaching out",
+                        "lying down"
+                    ],
+                    "is_contrasting": false
+                }
+            ]
+        },
+        {
+            "text": "dusting",
+            "is_modifiable": true,
+            "attributes": [
+                {
+                    "name": "motion",
+                    "values": [
+                        "gentle sweeping",
+                        "quick wiping",
+                        "circular motion",
+                        "upward dusting",
+                        "side-to-side motion"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "speed",
+                    "values": [
+                        "slowly",
+                        "gently",
+                        "quickly",
+                        "hastily",
+                        "deliberately"
+                    ],
+                    "is_contrasting": true
+                },
+                {
+                    "name": "style",
+                    "values": [
+                        "gentle",
+                        "energetic",
+                        "methodical",
+                        "quick",
+                        "delicate"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "intensity",
+                    "values": [
+                        "light dusting with a feather duster",
+                        "gentle sweeping with a cloth",
+                        "moderate wiping with a rag",
+                        "vigorous scrubbing with a brush",
+                        "heavy cleaning with a vacuum"
+                    ],
+                    "is_contrasting": true
+                }
+            ]
+        },
+        {
+            "text": "the",
+            "is_modifiable": false,
+            "attributes": []
+        },
+        {
+            "text": "old",
+            "is_modifiable": false,
+            "attributes": []
+        },
+        {
+            "text": "shelf",
+            "is_modifiable": true,
+            "attributes": [
+                {
+                    "name": "material",
+                    "values": [
+                        "wood",
+                        "metal",
+                        "glass",
+                        "plastic",
+                        "stone"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "size",
+                    "values": [
+                        "tiny",
+                        "small",
+                        "medium",
+                        "large",
+                        "extra large"
+                    ],
+                    "is_contrasting": true
+                },
+                {
+                    "name": "color",
+                    "values": [
+                        "red",
+                        "blue",
+                        "green",
+                        "yellow",
+                        "black"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "age",
+                    "values": [
+                        "brand new",
+                        "worn and aged",
+                        "antique",
+                        "rusted",
+                        "modern"
+                    ],
+                    "is_contrasting": true
+                },
+                {
+                    "name": "style",
+                    "values": [
+                        "modern",
+                        "rustic",
+                        "vintage",
+                        "industrial",
+                        "minimalist"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "condition",
+                    "values": [
+                        "new and pristine",
+                        "slightly scratched",
+                        "worn and chipped",
+                        "rusty or corroded",
+                        "damaged or broken"
+                    ],
+                    "is_contrasting": false
+                }
+            ]
+        },
+        {
+            "text": "quietly",
+            "is_modifiable": true,
+            "attributes": [
+                {
+                    "name": "sound level",
+                    "values": [
+                        "completely silent",
+                        "soft whisper",
+                        "murmur",
+                        "background hum",
+                        "loud noise"
+                    ],
+                    "is_contrasting": true
+                },
+                {
+                    "name": "mood",
+                    "values": [
+                        "calm",
+                        "serene",
+                        "tense",
+                        "peaceful",
+                        "anxious"
+                    ],
+                    "is_contrasting": false
+                }
+            ]
+        },
+        {
+            "text": "to",
+            "is_modifiable": false,
+            "attributes": []
+        },
+        {
+            "text": "not",
+            "is_modifiable": false,
+            "attributes": []
+        },
+        {
+            "text": "make",
+            "is_modifiable": false,
+            "attributes": []
+        },
+        {
+            "text": "noise",
+            "is_modifiable": false,
+            "attributes": []
+        }
+    ]
+}
+{
+    "prompt": "A person shopping on a Sunday morning",
+    "attr_per_token": [
+        {
+            "text": "A",
+            "is_modifiable": false,
+            "attributes": []
+        },
+        {
+            "text": "person",
+            "is_modifiable": true,
+            "attributes": [
+                {
+                    "name": "age",
+                    "values": [
+                        "newborn",
+                        "child",
+                        "teenager",
+                        "adult",
+                        "elderly"
+                    ],
+                    "is_contrasting": true
+                },
+                {
+                    "name": "clothing",
+                    "values": [
+                        "t-shirt",
+                        "suit",
+                        "dress",
+                        "jacket",
+                        "casual jeans"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "emotion",
+                    "values": [
+                        "joyful",
+                        "furrowed brow",
+                        "smiling",
+                        "frowning",
+                        "wide-eyed"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "pose",
+                    "values": [
+                        "standing upright",
+                        "sitting cross-legged",
+                        "bending forward",
+                        "reaching out",
+                        "lying down"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "body type",
+                    "values": [
+                        "slim",
+                        "average",
+                        "muscular",
+                        "stocky",
+                        "curvy"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "accessories",
+                    "values": [
+                        "hat",
+                        "glasses",
+                        "necklace",
+                        "watch",
+                        "scarf"
+                    ],
+                    "is_contrasting": false
+                }
+            ]
+        },
+        {
+            "text": "shopping",
+            "is_modifiable": true,
+            "attributes": [
+                {
+                    "name": "activity",
+                    "values": [
+                        "browsing shelves",
+                        "carrying shopping bags",
+                        "checking a shopping list",
+                        "using a credit card",
+                        "comparing products"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "motion",
+                    "values": [
+                        "walking with a shopping bag",
+                        "pushing a cart",
+                        "reaching for items",
+                        "carrying multiple bags",
+                        "standing still browsing"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "style",
+                    "values": [
+                        "casual",
+                        "formal",
+                        "sporty",
+                        "bohemian",
+                        "luxurious"
+                    ],
+                    "is_contrasting": false
+                }
+            ]
+        },
+        {
+            "text": "on",
+            "is_modifiable": false,
+            "attributes": []
+        },
+        {
+            "text": "a",
+            "is_modifiable": false,
+            "attributes": []
+        },
+        {
+            "text": "Sunday",
+            "is_modifiable": true,
+            "attributes": [
+                {
+                    "name": "lighting",
+                    "values": [
+                        "bright sunlight",
+                        "soft morning light",
+                        "golden hour glow",
+                        "overcast sky",
+                        "dim evening light"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "time of day",
+                    "values": [
+                        "dawn",
+                        "mid-morning",
+                        "afternoon",
+                        "sunset",
+                        "night"
+                    ],
+                    "is_contrasting": true
+                },
+                {
+                    "name": "setting",
+                    "values": [
+                        "morning brunch outdoors",
+                        "relaxing at home",
+                        "park picnic",
+                        "church service",
+                        "family gathering"
+                    ],
+                    "is_contrasting": false
+                }
+            ]
+        },
+        {
+            "text": "morning",
+            "is_modifiable": true,
+            "attributes": [
+                {
+                    "name": "lighting",
+                    "values": [
+                        "dim dawn light",
+                        "soft sunrise glow",
+                        "bright daylight",
+                        "harsh midday sun",
+                        "golden hour warm light"
+                    ],
+                    "is_contrasting": true
+                },
+                {
+                    "name": "time of day",
+                    "values": [
+                        "dawn",
+                        "early morning",
+                        "mid-morning",
+                        "late morning",
+                        "sunrise"
+                    ],
+                    "is_contrasting": true
+                }
+            ]
+        }
+    ]
+}
+{
+    "prompt": "A person cooking a chicken in a kitchen full of dishes",
+    "attr_per_token": [
+        {
+            "text": "A",
+            "is_modifiable": false,
+            "attributes": []
+        },
+        {
+            "text": "person",
+            "is_modifiable": true,
+            "attributes": [
+                {
+                    "name": "age",
+                    "values": [
+                        "newborn",
+                        "child",
+                        "teenager",
+                        "adult",
+                        "elderly"
+                    ],
+                    "is_contrasting": true
+                },
+                {
+                    "name": "ethnicity",
+                    "values": [
+                        "Caucasian",
+                        "African",
+                        "Asian",
+                        "Hispanic",
+                        "Middle Eastern"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "origin",
+                    "values": [
+                        "urban cityscape",
+                        "rural countryside",
+                        "mountain village",
+                        "coastal town",
+                        "desert settlement"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "body type",
+                    "values": [
+                        "slim",
+                        "average",
+                        "muscular",
+                        "stocky",
+                        "curvy"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "clothing",
+                    "values": [
+                        "t-shirt",
+                        "suit",
+                        "dress",
+                        "jacket",
+                        "skirt"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "emotion",
+                    "values": [
+                        "joyful",
+                        "furrowed brow",
+                        "smiling",
+                        "frowning",
+                        "wide-eyed"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "pose",
+                    "values": [
+                        "standing upright",
+                        "sitting cross-legged",
+                        "bending forward",
+                        "reaching out",
+                        "lying down"
+                    ],
+                    "is_contrasting": false
+                }
+            ]
+        },
+        {
+            "text": "cooking",
+            "is_modifiable": true,
+            "attributes": [
+                {
+                    "name": "action",
+                    "values": [
+                        "chopping vegetables",
+                        "stirring a pot",
+                        "pouring ingredients",
+                        "baking in oven",
+                        "frying in a pan"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "speed",
+                    "values": [
+                        "instant",
+                        "slow",
+                        "steady",
+                        "rapid",
+                        "methodical"
+                    ],
+                    "is_contrasting": true
+                },
+                {
+                    "name": "style",
+                    "values": [
+                        "rustic",
+                        "modern",
+                        "traditional",
+                        "fusion",
+                        "minimalist"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "intensity",
+                    "values": [
+                        "gentle simmer",
+                        "steady boil",
+                        "rapid boil",
+                        "sizzling",
+                        "flaming"
+                    ],
+                    "is_contrasting": true
+                }
+            ]
+        },
+        {
+            "text": "a",
+            "is_modifiable": false,
+            "attributes": []
+        },
+        {
+            "text": "chicken",
+            "is_modifiable": true,
+            "attributes": [
+                {
+                    "name": "size",
+                    "values": [
+                        "tiny",
+                        "small",
+                        "medium",
+                        "large",
+                        "giant"
+                    ],
+                    "is_contrasting": true
+                },
+                {
+                    "name": "color",
+                    "values": [
+                        "white",
+                        "black",
+                        "brown",
+                        "golden",
+                        "speckled"
+                    ],
+                    "is_contrasting": true
+                },
+                {
+                    "name": "cooked state",
+                    "values": [
+                        "raw",
+                        "poached",
+                        "roasted",
+                        "grilled",
+                        "fried"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "texture",
+                    "values": [
+                        "smooth and sleek feathers",
+                        "fluffy and soft down",
+                        "rough and ruffled feathers",
+                        "scaly legs",
+                        "crisp and roasted skin"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "appearance",
+                    "values": [
+                        "plump with white feathers",
+                        "lean with brown feathers",
+                        "featherless chick",
+                        "ruffled and disheveled",
+                        "sleek with shiny black feathers"
+                    ],
+                    "is_contrasting": false
+                }
+            ]
+        },
+        {
+            "text": "in",
+            "is_modifiable": false,
+            "attributes": []
+        },
+        {
+            "text": "a",
+            "is_modifiable": false,
+            "attributes": []
+        },
+        {
+            "text": "kitchen",
+            "is_modifiable": true,
+            "attributes": [
+                {
+                    "name": "size",
+                    "values": [
+                        "tiny",
+                        "cozy",
+                        "standard",
+                        "spacious",
+                        "vast"
+                    ],
+                    "is_contrasting": true
+                },
+                {
+                    "name": "layout",
+                    "values": [
+                        "galley",
+                        "L-shaped",
+                        "U-shaped",
+                        "open-plan",
+                        "peninsula"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "style",
+                    "values": [
+                        "modern",
+                        "rustic",
+                        "vintage",
+                        "industrial",
+                        "minimalist"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "lighting",
+                    "values": [
+                        "dim candlelight",
+                        "bright fluorescent",
+                        "warm incandescent",
+                        "natural daylight",
+                        "colored LED"
+                    ],
+                    "is_contrasting": true
+                },
+                {
+                    "name": "materials",
+                    "values": [
+                        "wooden cabinets",
+                        "stainless steel appliances",
+                        "ceramic tiles",
+                        "granite countertops",
+                        "glass backsplash"
+                    ],
+                    "is_contrasting": false
+                }
+            ]
+        },
+        {
+            "text": "full",
+            "is_modifiable": false,
+            "attributes": []
+        },
+        {
+            "text": "of",
+            "is_modifiable": false,
+            "attributes": []
+        },
+        {
+            "text": "dishes",
+            "is_modifiable": true,
+            "attributes": [
+                {
+                    "name": "number",
+                    "values": [
+                        "one dish",
+                        "a few dishes",
+                        "several dishes",
+                        "many dishes",
+                        "a large pile of dishes"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "type",
+                    "values": [
+                        "plate",
+                        "bowl",
+                        "cup",
+                        "platter",
+                        "mug"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "arrangement",
+                    "values": [
+                        "stacked neatly",
+                        "spread out randomly",
+                        "aligned in a row",
+                        "clustered together",
+                        "organized in a circular pattern"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "style",
+                    "values": [
+                        "modern",
+                        "rustic",
+                        "vintage",
+                        "minimalist",
+                        "ornate"
+                    ],
+                    "is_contrasting": false
+                },
+                {
+                    "name": "material",
+                    "values": [
+                        "ceramic",
+                        "glass",
+                        "metal",
+                        "wood",
+                        "plastic"
+                    ],
+                    "is_contrasting": false
+                }
+            ]
+        }
+    ]
+}

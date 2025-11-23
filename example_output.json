@@ -1,0 +1,172 @@
+[
+    {
+      "text": "A",
+      "is_modifiable": false,
+      "attributes": []
+    },
+    {
+      "text": "young",
+      "is_modifiable": false,
+      "attributes": []
+    },
+    {
+      "text": "person",
+      "is_modifiable": true,
+      "attributes": [
+        {
+          "name": "age",
+          "values": [
+            "newborn",
+            "toddler",
+            "young adult",
+            "middle-aged",
+            "senior"
+          ],
+          "is_contrasting": true
+        },
+        {
+          "name": "ethnicity",
+          "values": [
+            "Caucasian",
+            "African",
+            "Asian",
+            "Hispanic",
+            "Middle Eastern"
+          ],
+          "is_contrasting": false
+        },
+        {
+          "name": "gender",
+          "values": [
+            "male",
+            "female",
+            "non-binary",
+            "genderqueer",
+            "transgender"
+          ],
+          "is_contrasting": false
+        },
+        {
+          "name": "emotion",
+          "values": [
+            "joyful",
+            "frustrated",
+            "anxious",
+            "content",
+            "disappointed"
+          ],
+          "is_contrasting": false
+        },
+        {
+          "name": "clothing",
+          "values": [
+            "t-shirt and jeans",
+            "formal suit",
+            "summer dress",
+            "sweater and trousers",
+            "athletic wear"
+          ],
+          "is_contrasting": false
+        },
+        {
+          "name": "body type",
+          "values": [
+            "slim",
+            "athletic",
+            "average",
+            "curvy",
+            "overweight"
+          ],
+          "is_contrasting": false
+        }
+      ]
+    },
+    {
+      "text": "wearing",
+      "is_modifiable": true,
+      "attributes": [
+        {
+          "name": "style",
+          "values": [
+            "casual",
+            "formal",
+            "sporty",
+            "bohemian",
+            "vintage"
+          ],
+          "is_contrasting": false
+        },
+        {
+          "name": "fit",
+          "values": [
+            "tight",
+            "loose",
+            "fitted",
+            "baggy",
+            "oversized"
+          ],
+          "is_contrasting": true
+        }
+      ]
+    },
+    {
+      "text": "a",
+      "is_modifiable": false,
+      "attributes": []
+    },
+    {
+      "text": "colorful",
+      "is_modifiable": false,
+      "attributes": []
+    },
+    {
+      "text": "shirt",
+      "is_modifiable": true,
+      "attributes": [
+        {
+          "name": "color",
+          "values": [
+            "red",
+            "blue",
+            "green",
+            "yellow",
+            "black"
+          ],
+          "is_contrasting": false
+        },
+        {
+          "name": "pattern",
+          "values": [
+            "solid",
+            "striped",
+            "plaid",
+            "polka dot",
+            "floral"
+          ],
+          "is_contrasting": false
+        },
+        {
+          "name": "material",
+          "values": [
+            "cotton",
+            "silk",
+            "linen",
+            "denim",
+            "polyester"
+          ],
+          "is_contrasting": false
+        },
+        {
+          "name": "style",
+          "values": [
+            "t-shirt",
+            "button-up",
+            "polo",
+            "tank top",
+            "dress shirt"
+          ],
+          "is_contrasting": false
+        }
+      ]
+    }
+  ]

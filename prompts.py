@@ -1,7 +1,3 @@
-"""
-Prompt templates and few-shot examples for the LLM-based prompt expander.
-"""
-
 # Few-shot examples for attribute extraction
 ATTRIBUTE_EXTRACTION_EXAMPLES = [
     {
@@ -102,10 +98,13 @@ def get_attribute_value_expansion_system_message(max_values: int, contrasting: b
     """Generate system message for attribute value expansion."""
     contrast_instruction = ""
     if contrasting:
-        contrast_instruction = f"Generate {max_values} HIGHLY CONTRASTING and DIVERSE values that represent opposite or very different extremes of the attribute spectrum. "
+        contrast_instruction = (
+            f"Generate {max_values} HIGHLY CONTRASTING and DIVERSE values that represent opposite or very different extremes of the attribute spectrum. "
+            'For example, for object: "person", attribute: "age", you might return: '
+            '{"object": "person", "attribute": "age", "expansions": ["baby", "teenager", "adult", "elderly"]}'
+        )
     else:
         contrast_instruction = f"Generate {max_values} diverse, representative values covering the range of this attribute. "
-    
     return (
         "You are an expert at extracting visually depictable attribute VALUEs for attributes of objects, "
         "in a way that would assist an artist depicting a given object. "
@@ -123,6 +122,18 @@ def get_prompt_expansion_system_message() -> str:
         "Add the specified attribute values to the original prompt in a natural, minimal way. "
         "Keep the original sentence structure intact. Add only the given attributes as simple modifiers. "
         "Do NOT add extra details, explanations, or change the core meaning. Keep it concise."
+    )
+
+
+def get_contrasting_detection_system_message() -> str:
+    """Generate system message for detecting if an attribute has contrasting/ordinal potential."""
+    return (
+        "You are an expert at analyzing attributes to determine if they have ordinal/contrasting potential.\n\n"
+        "An attribute has CONTRASTING POTENTIAL if it represents a spectrum or scale that can go from one extreme to another:\n"
+        "- Examples: age (young to old), size (small to large), brightness (dark to light), temperature (cold to hot)\n\n"
+        "An attribute is DIVERSE (not contrasting) if it represents categorical variety with no inherent order:\n"
+        "- Examples: ethnicity, country, pattern, flavor, type, style\n\n"
+        'Respond with a JSON object: {"is_contrasting": true/false, "reasoning": "brief explanation"}'
     )
 
 
