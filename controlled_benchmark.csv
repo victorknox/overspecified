@@ -1,0 +1,271 @@
+prompt,category
+a door,human_made_object
+a desk,human_made_object
+a table,human_made_object
+a pair of sunglasses,human_made_object
+a teddy bear,human_made_object
+a vase,human_made_object
+a truck,human_made_object
+an umbrella,human_made_object
+a train,human_made_object
+a soda can,human_made_object
+a window,human_made_object
+a ring,human_made_object
+a road,human_made_object
+a spoon,human_made_object
+a pair of scissors,human_made_object
+a pair of shoes,human_made_object
+a smartphone,human_made_object
+a pair of socks,human_made_object
+a bus,human_made_object
+a building,human_made_object
+a bridge,human_made_object
+an airplane,human_made_object
+a pillow,human_made_object
+a telephone,human_made_object
+a pencil,human_made_object
+a painting,human_made_object
+a glass,human_made_object
+a mug,human_made_object
+a necklace,human_made_object
+a house,human_made_object
+an animal,nature
+a bird,nature
+an island,nature
+a horse,nature
+a leaf,nature
+a lion,nature
+a mountain,nature
+a mushroom,nature
+an ocean,nature
+an orange,nature
+the moon,nature
+a giraffe,nature
+a lake,nature
+a forest,nature
+a butterfly,nature
+a flower,nature
+a fish,nature
+an elephant,nature
+a dog,nature
+a tiger,nature
+a tree,nature
+a waterfall,nature
+the sun,nature
+a whale,nature
+a star,nature
+rain,nature
+a plant,nature
+a rabbit,nature
+a river,nature
+a rock,nature
+a teapot,food_and_drinks
+a cucumber,food_and_drinks
+a dessert,food_and_drinks
+a coffee cup,food_and_drinks
+a piece of cheese,food_and_drinks
+a cake,food_and_drinks
+a fruit,food_and_drinks
+a pizza,food_and_drinks
+a loaf of bread,food_and_drinks
+an apple,food_and_drinks
+a sandwich,food_and_drinks
+a burger,food_and_drinks
+a taco,food_and_drinks
+sushi,food_and_drinks
+a bowl of salad,food_and_drinks
+a steak,food_and_drinks
+a bowl of pasta,food_and_drinks
+a donut,food_and_drinks
+a cookie,food_and_drinks
+a muffin,food_and_drinks
+a waffle,food_and_drinks
+a pancake,food_and_drinks
+a croissant,food_and_drinks
+a bagel,food_and_drinks
+french fries,food_and_drinks
+a chocolate bar,food_and_drinks
+popcorn,food_and_drinks
+a bowl of rice,food_and_drinks
+noodles,food_and_drinks
+a milkshake,food_and_drinks
+a house at the foot of a mountain,man_made_object_x_nature
+a bridge crossing a river,man_made_object_x_nature
+an umbrella shading a dog,man_made_object_x_nature
+a boat floating on the ocean,man_made_object_x_nature
+a road winding through a forest,man_made_object_x_nature
+a kite flying near the sun,man_made_object_x_nature
+a train passing a waterfall,man_made_object_x_nature
+a bench under a tree,man_made_object_x_nature
+a car parked near a lake,man_made_object_x_nature
+a plane flying above the clouds,man_made_object_x_nature
+a fence surrounding a garden,man_made_object_x_nature
+a cabin on an island,man_made_object_x_nature
+a camera capturing a lion,man_made_object_x_nature
+a bicycle leaning against a rock,man_made_object_x_nature
+a streetlamp illuminating the rain,man_made_object_x_nature
+a bucket collecting rain,man_made_object_x_nature
+a drone hovering over a forest,man_made_object_x_nature
+a tent set up in a valley,man_made_object_x_nature
+a tire swing hanging from a tree,man_made_object_x_nature
+a lighthouse overlooking the sea,man_made_object_x_nature
+a signpost pointing to a cave,man_made_object_x_nature
+a balloon stuck in a tree,man_made_object_x_nature
+a surfboard resting on the sand,man_made_object_x_nature
+a windmill standing in a field,man_made_object_x_nature
+a scarecrow protecting crops,man_made_object_x_nature
+a pier extending into the water,man_made_object_x_nature
+a satellite dish facing the sky,man_made_object_x_nature
+a jeep driving through a desert,man_made_object_x_nature
+a birdhouse hanging from a branch,man_made_object_x_nature
+a telescope pointed at the moon,man_made_object_x_nature
+a spoon resting on a cake,man_made_object_x_food_and_drinks
+a soda can next to a pizza,man_made_object_x_food_and_drinks
+a knife slicing bread,man_made_object_x_food_and_drinks
+a mug filled with coffee,man_made_object_x_food_and_drinks
+a plate holding a sandwich,man_made_object_x_food_and_drinks
+a napkin under a donut,man_made_object_x_food_and_drinks
+a vending machine dispensing a snack,man_made_object_x_food_and_drinks
+a blender mixing a smoothie,man_made_object_x_food_and_drinks
+a toaster heating a bagel,man_made_object_x_food_and_drinks
+a fork piercing a steak,man_made_object_x_food_and_drinks
+a lunchbox containing an apple,man_made_object_x_food_and_drinks
+a tray carrying sushi,man_made_object_x_food_and_drinks
+a candle on top of a cupcake,man_made_object_x_food_and_drinks
+a basket full of fruit,man_made_object_x_food_and_drinks
+a refrigerator stocked with drinks,man_made_object_x_food_and_drinks
+a table set with dinner,man_made_object_x_food_and_drinks
+a painting of a bowl of fruit,man_made_object_x_food_and_drinks
+a jar filled with cookies,man_made_object_x_food_and_drinks
+a wrapper covering a chocolate bar,man_made_object_x_food_and_drinks
+a glass of milk next to a cookie,man_made_object_x_food_and_drinks
+a spatula flipping a pancake,man_made_object_x_food_and_drinks
+a grill cooking a burger,man_made_object_x_food_and_drinks
+a microwave heating popcorn,man_made_object_x_food_and_drinks
+a bowl holding cereal,man_made_object_x_food_and_drinks
+a thermos kept next to a lunch,man_made_object_x_food_and_drinks
+a menu listing desserts,man_made_object_x_food_and_drinks
+a receipt for a meal,man_made_object_x_food_and_drinks
+a shopping cart filled with groceries,man_made_object_x_food_and_drinks
+a picnic blanket with a spread of food,man_made_object_x_food_and_drinks
+a desk cluttered with snacks,man_made_object_x_food_and_drinks
+a rabbit eating a carrot,nature_x_food_and_drinks
+a bird pecking at bread crumbs,nature_x_food_and_drinks
+an apple falling from a tree,nature_x_food_and_drinks
+a fish swimming near seaweed,nature_x_food_and_drinks
+a bear eating honey,nature_x_food_and_drinks
+ants marching toward a picnic,nature_x_food_and_drinks
+a squirrel holding a nut,nature_x_food_and_drinks
+a bee landing on a sugary drink,nature_x_food_and_drinks
+grapes growing on a vine,nature_x_food_and_drinks
+mushrooms growing near wild berries,nature_x_food_and_drinks
+a coconut falling on the sand,nature_x_food_and_drinks
+a monkey holding a banana,nature_x_food_and_drinks
+a cow grazing in a field,nature_x_food_and_drinks
+a mouse nibbling on cheese,nature_x_food_and_drinks
+a seagull stealing a french fry,nature_x_food_and_drinks
+a raccoon rummaging for scraps,nature_x_food_and_drinks
+berries ripening in the sun,nature_x_food_and_drinks
+a watermelon cooling in a river,nature_x_food_and_drinks
+a corn stalk growing in the rain,nature_x_food_and_drinks
+a pineapple growing in the soil,nature_x_food_and_drinks
+a panda eating bamboo,nature_x_food_and_drinks
+a hummingbird drinking nectar,nature_x_food_and_drinks
+a caterpillar on a leaf of lettuce,nature_x_food_and_drinks
+a dog begging for a treat,nature_x_food_and_drinks
+a goat chewing on a tin can label,nature_x_food_and_drinks
+salmon leaping upstream,nature_x_food_and_drinks
+a lemon tree blossoming,nature_x_food_and_drinks
+a pumpkin patch in autumn,nature_x_food_and_drinks
+wheat swaying in the wind,nature_x_food_and_drinks
+a campfire roasting marshmallows,nature_x_food_and_drinks
+a person eating a sandwich on a park bench under a tree,all_three_categories
+a bottle of water resting on a rock near a river,all_three_categories
+a bird stealing a fry from a table,all_three_categories
+a basket of apples sitting on the grass,all_three_categories
+a tent pitched near a fire cooking fish,all_three_categories
+a car parked in a field with a pizza on the roof,all_three_categories
+a dog eating food from a bowl on the porch,all_three_categories
+a glass of lemonade on a patio table in the sun,all_three_categories
+a drawing of a fruit bowl with a mountain background,all_three_categories
+a squirrel eating a nut on a wooden fence,all_three_categories
+a boat on a lake with a cooler of drinks,all_three_categories
+a cake sitting on a stump in the forest,all_three_categories
+a hiker eating a granola bar on a trail,all_three_categories
+a picnic blanket on the grass with a basket of food,all_three_categories
+a mug of coffee on a balcony overlooking the ocean,all_three_categories
+a bear rummaging through a dumpster for leftovers,all_three_categories
+a fishing rod resting against a tree near a bucket of fish,all_three_categories
+a wedding cake on a table in a garden,all_three_categories
+a grill cooking burgers in a backyard,all_three_categories
+a hammock tied between trees with a drink nearby,all_three_categories
+a vending machine in a park selling sodas,all_three_categories
+a farmer harvesting corn with a tractor,all_three_categories
+a photographer taking a picture of a fruit tree,all_three_categories
+a child holding an ice cream cone on a swing set,all_three_categories
+a plate of cookies on a windowsill with a view of the rain,all_three_categories
+a street vendor selling hot dogs under an umbrella,all_three_categories
+a tea set arranged on a rock in a zen garden,all_three_categories
+a painting of a landscape with a bowl of fruit in the foreground,all_three_categories
+a cat drinking milk from a saucer on a rug,all_three_categories
+a bicycle basket filled with flowers and a baguette,all_three_categories
+a teddy bear having a picnic with a rabbit and a slice of cake,all_three_categories
+a truck driving through a forest carrying crates of oranges,all_three_categories
+a pair of sunglasses resting on a rock next to a cocktail,all_three_categories
+a bird perched on a streetlamp pecking at a donut,all_three_categories
+a boat floating on the ocean filled with boxes of pizza,all_three_categories
+a painting of a mountain range with a bowl of fruit in the foreground,all_three_categories
+a pair of shoes left on the grass near a plate of cheese,all_three_categories
+a balloon tied to a tree branch hovering over a basket of muffins,all_three_categories
+a bicycle leaning against a tree with a baguette in the basket,all_three_categories
+a knife cutting a piece of cheese on a wooden stump,all_three_categories
+a smartphone taking a photo of a waterfall and a milkshake,all_three_categories
+a house at the edge of a lake with a pie cooling on the porch,all_three_categories
+a train passing a field of cows while passengers eat sandwiches,all_three_categories
+a ring placed on a flower petal next to a strawberry,all_three_categories
+a pair of scissors cutting herbs in a garden for a salad,all_three_categories
+a desk placed in a meadow with a cup of coffee on it,all_three_categories
+a kite flying over a river with a child eating a popsicle nearby,all_three_categories
+a key hidden under a leaf next to a dropped candy bar,all_three_categories
+a lamp illuminating a dark cave where a bear eats honey,all_three_categories
+a book left on a sandy beach next to a coconut drink,all_three_categories
+a plane flying over a jungle dropping supplies of rice,all_three_categories
+a vase of wildflowers sitting on a rock next to a picnic lunch,all_three_categories
+a bus parked near a canyon with tourists eating tacos,all_three_categories
+a pillow lying on a patch of moss with a box of chocolates,all_three_categories
+a guitar leaning against a cactus near a bottle of tequila,all_three_categories
+a soda can floating in a river past a swimming fish,all_three_categories
+a pair of socks drying on a bush near a camping stove cooking beans,all_three_categories
+a pencil sketching a lion while the artist eats an apple,all_three_categories
+a necklace draped over a mushroom next to a raspberry,all_three_categories
+a bridge crossing a stream with a vendor selling hot pretzels,all_three_categories
+a road sign pointing toward a mountain and a diner serving burgers,all_three_categories
+a spoon digging into a grapefruit sitting on a bed of leaves,all_three_categories
+a window framing a view of a snowy pine tree and a cup of hot cocoa,all_three_categories
+a glass of wine sitting on a log by a roaring campfire,all_three_categories
+a building overgrown with vines housing a bakery selling croissants,all_three_categories
+a headphones set resting on a pumpkin in a vegetable patch,all_three_categories
+a hat blown by the wind into a puddle near a spilled ice cream,all_three_categories
+a ball rolling down a hill past a grazing sheep and a picnic basket,all_three_categories
+a telephone booth in the desert next to a vending machine for soda,all_three_categories
+a door standing alone in a field opening to a banquet of roast chicken,all_three_categories
+a drawing of a tiger eating a steak pinned to a tree,all_three_categories
+a mug of tea sitting on a stone wall overlooking a valley,all_three_categories
+a bowl of soup placed on a dock near a swimming duck,all_three_categories
+a umbrella shielding a butterfly and a sugar cube from the rain,all_three_categories
+a car trunk open in a forest revealing a stash of watermelon,all_three_categories
+a candle lighting up a small cave where a mouse eats a crumb,all_three_categories
+a clocktower rising above a park where people eat sushi,all_three_categories
+a dress hanging from a branch swaying above a basket of grapes,all_three_categories
+a computer set up on a stump in the woods displaying a recipe for pasta,all_three_categories
+a container of leftovers sitting on a frozen lake near a penguin,all_three_categories
+a toy truck stuck in the mud near a pig eating corn,all_three_categories
+a pair of glasses reflecting the sun and a plate of waffles,all_three_categories
+a mirror leaning against a barn reflecting a horse eating a carrot,all_three_categories
+a ladder propped against an apple tree with a basket of harvest,all_three_categories
+a suitcase open on a grassy hill filled with baguette sandwiches,all_three_categories
+a traffic cone sitting in a puddle next to a discarded banana peel,all_three_categories
+a camera lens focused on a squirrel holding a peanut,all_three_categories
+a hammock strung between palms with a coconut split open nearby,all_three_categories
+a mailbox filled with flowers and a delivery of cookies,all_three_categories
+a skateboard resting on a curb near a pigeon eating a fry,all_three_categories
