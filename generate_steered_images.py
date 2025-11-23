@@ -1,5 +1,6 @@
 import sys
 import os
+import subprocess
 import random
 import torch
 import numpy as np
@@ -15,8 +16,9 @@ try:
     from attribute_control import EmbeddingDelta
     from attribute_control.model import SDXL
     from attribute_control.prompt_utils import get_mask_regex
-except ImportError:
-    print("Error: Could not import attribute_control. Please ensure the 'attribute-control' repository is cloned in the same directory.")
+except ImportError as e:
+    print(f"Error: Could not import attribute_control. {e}")
+    # print("Error: Could not import attribute_control. Please ensure the 'attribute-control' repository is cloned in the same directory.")
     sys.exit(1)
 
 # --- Configuration ---
@@ -27,19 +29,14 @@ OUTPUT_DIR = os.path.join(os.path.dirname(__file__), 'output_steered_images')
 
 # --- Dataset ---
 DATASET = [
-    # 1 words
-    'a person', 'a bed', 'a bike', 'a car', 'a chair', 'a table', 'a truck',
-    # 2 words
-    'A person is asleep in a bed.', 'A person rides a bike.', 'A person is driving a car.', 
+    'a person', 'a bed', 'a bike', 'a car', 'a chair', 'a table', 'a truck', 'A person is asleep in a bed.', 'A person rides a bike.', 'A person is driving a car.', 
     'A person is sitting on a chair.', 'A person is eating at a table.', 'A person unloads a truck.', 
     'A bed and a chair are in the same room.', 'A small table stands beside a bed.', 
     'A bed is interacting with a bike.', 'A bed is interacting with a car.', 'A bed is interacting with a truck.', 
     'A bike is strapped to the roof of a car.', 'A bike is parked near a chair.', 'A bike is parked near a table.', 
     'A bike is interacting with a truck.', 'A car is parked near a chair.', 'A car is parked near a table.', 
     'A car follows a truck on the highway.', 'A chair is placed against a bed.', 'A chair is interacting with a truck.', 
-    'A table is placed against a bed.',
-    # 3 words
-    'A person sits on a chair beside a table.', 'A person is working on a table while sitting in bed.', 
+    'A table is placed against a bed.', 'A person sits on a chair beside a table.', 'A person is working on a table while sitting in bed.', 
     'A person is used to move a bike near a car.', 'A person is used to move a bike near a chair.', 
     'A person is used to move a bike near a table.', 'A person is used to move a bike near a truck.', 
     'A person is used to move a car near a chair.', 'A person is used to move a car near a table.', 
@@ -199,6 +196,9 @@ def main():
                 print(f"Failed to generate for '{prompt}': {e}")
 
     print(f"Done! Images saved to {OUTPUT_DIR}")
+
+    print("Stopping RunPod instance...")
+    subprocess.run(["runpodctl", "stop", "6p80cr5t6999y2"])
 
 if __name__ == "__main__":
     main()
